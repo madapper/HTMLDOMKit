@@ -9,10 +9,9 @@ HTMLDOMKit allows the creation of HTML DOMs for the building of web pages. HTML 
                        DESC
 
   s.homepage         = "https://github.com/MadApper/HTMLDOMKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Paul Napier" => "paul.napier@madapper.co.uk" }
-  s.source           = { :git => "https://github.com/MadApper/HTMLDOMKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/MadApper/HTMLDOMKit.git", :branch => "master", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/madapperapps'
 
   s.ios.deployment_target = '8.0'
