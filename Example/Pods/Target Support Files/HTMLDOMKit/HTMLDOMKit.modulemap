@@ -1,0 +1,6 @@
+framework module HTMLDOMKit {
+  umbrella header "HTMLDOMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
