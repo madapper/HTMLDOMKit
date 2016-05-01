@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/HTMLDOMKit.svg?style=flat)](http://cocoapods.org/pods/HTMLDOMKit)
 [![License](https://img.shields.io/cocoapods/l/HTMLDOMKit.svg?style=flat)](http://cocoapods.org/pods/HTMLDOMKit)
 [![Platform](https://img.shields.io/cocoapods/p/HTMLDOMKit.svg?style=flat)](http://cocoapods.org/pods/HTMLDOMKit)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Example
 
