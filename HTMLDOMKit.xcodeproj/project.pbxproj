@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5C503B11CD6C8AF007A4271 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C503B01CD6C8AF007A4271 /* Info.plist */; };
 		E5C503B41CD6CE1D007A4271 /* HTMLDOMKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */; };
 		E5C503B51CD6CE47007A4271 /* HTMLDOMKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */; };
 		E5C503B71CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */; };
-		E5C503B81CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */; };
-		E5DF0BAF1CD6D0EC00C7385D /* HTMLDOMKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */; };
-		E5DF0BB11CD6D0EC00C7385D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0BAD1CD6D0EC00C7385D /* LICENSE */; };
-		E5DF0BB31CD6D0EC00C7385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0BAE1CD6D0EC00C7385D /* README.md */; };
+		E5DF0BBF1CD6D96C00C7385D /* HTMLDOMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +19,9 @@
 		E5C503B01CD6C8AF007A4271 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMLDOMKit iOS.h"; sourceTree = "<group>"; };
 		E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLDOMKit.swift; sourceTree = "<group>"; };
-		E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HTMLDOMKit.podspec; sourceTree = "<group>"; };
-		E5DF0BAD1CD6D0EC00C7385D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E5DF0BAE1CD6D0EC00C7385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5DF0BB61CD6D95D00C7385D /* HTMLDOMKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HTMLDOMKit.podspec; sourceTree = "<group>"; };
+		E5DF0BB71CD6D95D00C7385D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E5DF0BB81CD6D95D00C7385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +45,7 @@
 		E5C5038D1CD6C7AC007A4271 = {
 			isa = PBXGroup;
 			children = (
-				E5DF0BAB1CD6D0EC00C7385D /* MetaData */,
+				E5DF0BB51CD6D94B00C7385D /* MetaData */,
 				E5C503AF1CD6C8AF007A4271 /* Sources */,
 				E5C5039A1CD6C7F8007A4271 /* Products */,
 			);
@@ -74,14 +70,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		E5DF0BAB1CD6D0EC00C7385D /* MetaData */ = {
+		E5DF0BB51CD6D94B00C7385D /* MetaData */ = {
 			isa = PBXGroup;
 			children = (
-				E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */,
-				E5DF0BAD1CD6D0EC00C7385D /* LICENSE */,
-				E5DF0BAE1CD6D0EC00C7385D /* README.md */,
+				E5DF0BB61CD6D95D00C7385D /* HTMLDOMKit.podspec */,
+				E5DF0BB71CD6D95D00C7385D /* LICENSE */,
+				E5DF0BB81CD6D95D00C7385D /* README.md */,
 			);
-			path = MetaData;
+			name = MetaData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DF0BB11CD6D0EC00C7385D /* LICENSE in Resources */,
-				E5C503B11CD6C8AF007A4271 /* Info.plist in Resources */,
-				E5DF0BAF1CD6D0EC00C7385D /* HTMLDOMKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DF0BB31CD6D0EC00C7385D /* README.md in Sources */,
 				E5C503B71CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C503B81CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */,
+				E5DF0BBF1CD6D96C00C7385D /* HTMLDOMKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
