@@ -18,5 +18,5 @@ HTMLDOMKit allows the creation of HTML DOMs for the building of web pages. HTML 
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*.swift'
 end
