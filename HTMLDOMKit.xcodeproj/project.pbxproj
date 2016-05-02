@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C503B11CD6C8AF007A4271 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C503B01CD6C8AF007A4271 /* Info.plist */; };
+		E5C503B41CD6CE1D007A4271 /* HTMLDOMKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */; };
+		E5C503B51CD6CE47007A4271 /* HTMLDOMKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */; };
+		E5C503B71CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */; };
+		E5C503B81CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */; };
+		E5DF0BAF1CD6D0EC00C7385D /* HTMLDOMKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */; };
+		E5DF0BB11CD6D0EC00C7385D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0BAD1CD6D0EC00C7385D /* LICENSE */; };
+		E5DF0BB31CD6D0EC00C7385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0BAE1CD6D0EC00C7385D /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5C503991CD6C7F8007A4271 /* HTMLDOMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMLDOMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C503A71CD6C81E007A4271 /* HTMLDOMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMLDOMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C503B01CD6C8AF007A4271 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMLDOMKit iOS.h"; sourceTree = "<group>"; };
+		E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLDOMKit.swift; sourceTree = "<group>"; };
+		E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HTMLDOMKit.podspec; sourceTree = "<group>"; };
+		E5DF0BAD1CD6D0EC00C7385D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E5DF0BAE1CD6D0EC00C7385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C503951CD6C7F8007A4271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C503A31CD6C81E007A4271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C5038D1CD6C7AC007A4271 = {
+			isa = PBXGroup;
+			children = (
+				E5DF0BAB1CD6D0EC00C7385D /* MetaData */,
+				E5C503AF1CD6C8AF007A4271 /* Sources */,
+				E5C5039A1CD6C7F8007A4271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C5039A1CD6C7F8007A4271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C503991CD6C7F8007A4271 /* HTMLDOMKit.framework */,
+				E5C503A71CD6C81E007A4271 /* HTMLDOMKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C503AF1CD6C8AF007A4271 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5C503B31CD6CE1D007A4271 /* HTMLDOMKit iOS.h */,
+				E5C503B01CD6C8AF007A4271 /* Info.plist */,
+				E5C503B61CD6CEB4007A4271 /* HTMLDOMKit.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E5DF0BAB1CD6D0EC00C7385D /* MetaData */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF0BAC1CD6D0EC00C7385D /* HTMLDOMKit.podspec */,
+				E5DF0BAD1CD6D0EC00C7385D /* LICENSE */,
+				E5DF0BAE1CD6D0EC00C7385D /* README.md */,
+			);
+			path = MetaData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5C503961CD6C7F8007A4271 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C503B41CD6CE1D007A4271 /* HTMLDOMKit iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C503A41CD6C81E007A4271 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C503B51CD6CE47007A4271 /* HTMLDOMKit iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5C503981CD6C7F8007A4271 /* HTMLDOMKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C5039F1CD6C7F8007A4271 /* Build configuration list for PBXNativeTarget "HTMLDOMKit iOS" */;
+			buildPhases = (
+				E5C503941CD6C7F8007A4271 /* Sources */,
+				E5C503951CD6C7F8007A4271 /* Frameworks */,
+				E5C503961CD6C7F8007A4271 /* Headers */,
+				E5C503971CD6C7F8007A4271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTMLDOMKit iOS";
+			productName = "HTMLDOMKit iOS";
+			productReference = E5C503991CD6C7F8007A4271 /* HTMLDOMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5C503A61CD6C81E007A4271 /* HTMLDOMKit OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C503AC1CD6C81E007A4271 /* Build configuration list for PBXNativeTarget "HTMLDOMKit OSX" */;
+			buildPhases = (
+				E5C503A21CD6C81E007A4271 /* Sources */,
+				E5C503A31CD6C81E007A4271 /* Frameworks */,
+				E5C503A41CD6C81E007A4271 /* Headers */,
+				E5C503A51CD6C81E007A4271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTMLDOMKit OSX";
+			productName = "HTMLDOMKit OSX";
+			productReference = E5C503A71CD6C81E007A4271 /* HTMLDOMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C5038E1CD6C7AC007A4271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					E5C503981CD6C7F8007A4271 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E5C503A61CD6C81E007A4271 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E5C503911CD6C7AC007A4271 /* Build configuration list for PBXProject "HTMLDOMKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5C5038D1CD6C7AC007A4271;
+			productRefGroup = E5C5039A1CD6C7F8007A4271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C503981CD6C7F8007A4271 /* HTMLDOMKit iOS */,
+				E5C503A61CD6C81E007A4271 /* HTMLDOMKit OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5C503971CD6C7F8007A4271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DF0BB11CD6D0EC00C7385D /* LICENSE in Resources */,
+				E5C503B11CD6C8AF007A4271 /* Info.plist in Resources */,
+				E5DF0BAF1CD6D0EC00C7385D /* HTMLDOMKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C503A51CD6C81E007A4271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C503941CD6C7F8007A4271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DF0BB31CD6D0EC00C7385D /* README.md in Sources */,
+				E5C503B71CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C503A21CD6C81E007A4271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C503B81CD6CEB4007A4271 /* HTMLDOMKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5C503921CD6C7AC007A4271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E5C503931CD6C7AC007A4271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		E5C503A01CD6C7F8007A4271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.madapper.HTMLDOMKit-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5C503A11CD6C7F8007A4271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.madapper.HTMLDOMKit-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5C503AD1CD6C81E007A4271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.madapper.HTMLDOMKit-OSX";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx10.11;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5C503AE1CD6C81E007A4271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.madapper.HTMLDOMKit-OSX";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx10.11;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C503911CD6C7AC007A4271 /* Build configuration list for PBXProject "HTMLDOMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C503921CD6C7AC007A4271 /* Debug */,
+				E5C503931CD6C7AC007A4271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C5039F1CD6C7F8007A4271 /* Build configuration list for PBXNativeTarget "HTMLDOMKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C503A01CD6C7F8007A4271 /* Debug */,
+				E5C503A11CD6C7F8007A4271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C503AC1CD6C81E007A4271 /* Build configuration list for PBXNativeTarget "HTMLDOMKit OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C503AD1CD6C81E007A4271 /* Debug */,
+				E5C503AE1CD6C81E007A4271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C5038E1CD6C7AC007A4271 /* Project object */;
+}

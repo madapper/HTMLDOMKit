@@ -1,8 +1,0 @@
-use_frameworks!
-
-
-target 'HTMLDOMKit_Tests', :exclusive => true do
-  pod 'HTMLDOMKit', :path => '../'
-
-  
-end
