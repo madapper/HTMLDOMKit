@@ -14,7 +14,9 @@ HTMLDOMKit allows the creation of HTML DOMs for the building of web pages. HTML 
   s.source           = { :git => "https://github.com/MadApper/HTMLDOMKit.git", :branch => "master", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/madapperapps'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
+  s.osx.deployment_target = '10.9'
+  s.tvos.deployment_target = '9.0'
 
   s.source_files = 'HTMLDOMKit/Classes/**/*'
 end
